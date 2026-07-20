@@ -1,0 +1,11 @@
+# put your configuration values here
+
+[sources.logfire]
+base_url = "https://logfire-us.pydantic.dev"
+
+[runtime]
+log_level="INFO"  # the system log level of dlt
+http_show_error_body = true
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/reference/telemetry
+dlthub_telemetry = true
+
